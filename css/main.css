@@ -323,15 +323,13 @@ h2 {
   color: #fff;
 }
 
-/* Main styles */
-/* Team section */
-.team-title {
-  margin-bottom: 50px;
-}
-
 .team {
   padding: 94px 0;
   background-color: #f5f4fa;
+}
+
+.team-title {
+  margin-bottom: 50px;
 }
 
 .team-list {
@@ -343,20 +341,14 @@ h2 {
   padding-left: 0;
 }
 
-.team-list > .item:not(:last-child) {
+.team-list-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.team-list > .item {
+.team-list-item {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
-
-.member-name {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #fff;
 }
 
 .member {
@@ -369,7 +361,13 @@ h2 {
   color: #212121;
 }
 
-.m-position {
+.member-name {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fff;
+}
+
+.member-position {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -377,6 +375,8 @@ h2 {
   margin-bottom: 16px;
 }
 
+/* Main styles */
+/* Team section */
 /* Social links */
 .social-links {
   display: -webkit-box;
