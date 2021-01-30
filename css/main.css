@@ -278,8 +278,6 @@ h2 {
   color: #757575;
 }
 
-/* Main styles */
-/* Doings section */
 .doings {
   padding: 0 0 94px 0;
 }
@@ -297,11 +295,11 @@ h2 {
   margin-bottom: 0;
 }
 
-.doings-list > .item:not(:last-child) {
+.doings-list .item:not(:last-child) {
   margin-right: 30px;
 }
 
-.doings-list > .item {
+.doings-list .item {
   position: relative;
 }
 
@@ -325,6 +323,7 @@ h2 {
   color: #fff;
 }
 
+/* Main styles */
 /* Team section */
 .team-title {
   margin-bottom: 50px;
