@@ -815,7 +815,6 @@ h2 {
   fill: #fff;
 }
 
-/* Modal window */
 .backdrop {
   position: fixed;
   top: 0;
@@ -877,7 +876,6 @@ h2 {
   pointer-events: none;
 }
 
-/* Form in modal window */
 .backdrop-header {
   padding-top: 40px;
   padding-right: 40px;
@@ -931,6 +929,10 @@ h2 {
   fill: #2196f3;
 }
 
+.comment {
+  margin-bottom: 20px;
+}
+
 .comment-area {
   width: 448px;
   height: 120px;
@@ -982,10 +984,6 @@ h2 {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.comment {
-  margin-bottom: 20px;
-}
-
 .input-icon {
   position: relative;
 }
@@ -1008,22 +1006,13 @@ h2 {
   margin-bottom: 30px;
 }
 
-.terms,
 .checkbox-text {
+  margin-left: 24px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-}
-
-.checkbox-text {
-  margin-left: 24px;
   color: #757575;
-}
-
-.terms {
-  text-decoration: underline;
-  color: #2196f3;
 }
 
 .checkbox-label {
@@ -1042,6 +1031,15 @@ h2 {
   cursor: pointer;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.terms {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: underline;
+  color: #2196f3;
 }
 
 .old-checkbox:checked ~ .checkbox-icon {
@@ -1073,4 +1071,7 @@ h2 {
   background-color: #188ce8;
   border-color: #188ce8;
 }
+
+/* Modal window */
+/* Form in modal window */
 /*# sourceMappingURL=main.css.map */
